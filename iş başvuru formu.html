@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM-1</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+     <h1>İş Başvuru Formu</h1>
+
+     <form action="bilgi.html">
+
+     <table border="solid">
+
+          <tr>
+              <th  id="bos" colspan="2">
+                  <div style="text-align: center;line-height: 150px; border:1px solid; width: 100px; float: right;">FOTOĞRAF</div>
+              </th>
+              
+          </tr>
+
+          <tr>
+              <td >Adı Soyadı: </td>
+              <td > <input type="text" name="username" size="45" required>
+            </td>
+          </tr>
+
+          <tr>
+              <td>Doğum Tarihi:</td>
+              <td><input type="date" name="age" style="float: right;" required> </td>
+          </tr>
+          <tr>
+              <td>Cinsiyet:</td>
+
+              <td >
+                  <label for="male">Erkek</label>
+                  <input type="radio" name="gender1" id="male">
+                   <label for="female">Kadın</label>
+                   <input type="radio" id="female" >
+                </td>
+          </tr>
+         
+          <tr>
+              <td>E-Posta Adresi:</td>
+              <td><input type="email" name="mail" id="" placeholder="example@example.com"></td>
+          </tr>
+
+          <tr>
+              <td>Telefon :</td>
+              <td> <input type="tel" name="tel" id=""placeholder="(___)(_______)"></td>
+          </tr>
+
+          <tr>
+              <td>Mezuniyet Durumu :</td>
+              <td><label for="Ön">Önlisans</label>
+                     <input type="checkbox" name="" id=" Ön">
+                     <label for="Li">Lisans</label>
+                     <input type="checkbox" name="" id="Li">
+                     <label for="Li">Y.Lisans</label>
+                     <input type="checkbox" name="" id="Y.Li">
+            
+            </td>
+          </tr>
+    
+
+          <tr>
+              <td>İngilizce Seviyeniz :</td>
+              <td>
+                   <select name="" id="">
+                    <option value="Seçiniz">Seçiniz</option>
+                       <option value="Balangıç">Beginer</option> 
+                       <option value="Orta Seviye">Orta Seviye</option>
+                       <option value="İleri Seviye">İleri Seviye</option>
+                        </select></td>
+          </tr>
+
+          <tr>
+              <td>Başvurulan Pozisyon:</td>
+              <td>
+                  <label for="bs">Bilgi İşlem</label>
+                  <input type="checkbox" name="bs" id="bs">
+                  <br>
+                  <label for="m">Muhasebe</label>
+                  <input type="checkbox" name="m" id="m">
+                  <br>
+                  <label for="p">Pazarlama</label>
+                  <input type="checkbox" name="p" id="p">
+                  <br>
+              </td>
+          </tr>
+            
+             <tr>
+                 <td>Askerlik Durumu:</td>
+                 <td><select name="" id="">
+                         <option value="Seçiniz">Seçiniz</option>
+                         <option value="Yapıldı">Yapıldı</option>
+                         <option value="Tecilli">Tecilli</option>
+                         
+                 </select>
+                </td>
+             </tr>
+
+               
+             <tr>
+                 <td>Daha Önceki İş Tecrübeniz:</td>
+                 <td><label for="x">Deneyim</label>
+                       <input type="range" name="" id="x">
+                </td>
+             </tr>
+
+
+               <tr>
+                   <td>Ek Bilgi:</td>
+                   <td> <textarea name="" id="" cols="50" rows="10" placeholder="Sizinle ilgili eklemek istediğiniz diğer bilgileri buraya yazabilirsiniz.">
+
+
+                   </textarea></td>
+               </tr>
+
+               
+
+
+
+
+
+
+     </table>
+   
+
+     <input type="submit" value="Gönder">
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
