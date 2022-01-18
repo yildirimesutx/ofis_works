@@ -1,0 +1,48 @@
+#header{
+    text-align: center;
+  
+}
+
+#he1{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#he3{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+}
+
+#contenier{
+   
+    margin: auto;
+}
+
+#forma{
+  
+    width: 500px;
+    margin: auto;
+    background-color: rgba(226, 202, 202, 0.8);
+    padding: 10px 40px;
+}
+
+.input-box{
+    margin-top: 10px;
+    
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1553095066-5014bc7b7f2d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8d2FsbCUyMGJhY2tncm91bmR8ZW58MHx8MHx8&w=1000&q=80);
+
+    color: seashell;
+}
+
+#name,
+#sname,
+#mail,
+#option,
+#comment {
+    width: 100%;
+    height: 20px;
+    
+}
